@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/yuntang/.oh-my-zsh"
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -92,6 +92,6 @@ export LANG=en_US.UTF-8
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 # Custom bash settings and zsh settings
-source .bash_profile
-fpath=(~/.oh-my-zsh/custom/completions $fpath)
-autoload -U compinit && compinit
+source $HOME/.bash_profile
+# fpath=(~/.oh-my-zsh/custom/completions $fpath)
+# autoload -U compinit && compinit
