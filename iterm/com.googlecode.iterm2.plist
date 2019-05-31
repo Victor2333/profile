@@ -1914,6 +1914,10 @@
 	<integer>0</integer>
 	<key>NoSyncPermissionToShowTip</key>
 	<true/>
+	<key>NoSyncSuppressBroadcastInputWarning</key>
+	<true/>
+	<key>NoSyncSuppressBroadcastInputWarning_selection</key>
+	<integer>0</integer>
 	<key>NoSyncTimeOfFirstLaunchOfVersionWithTip</key>
 	<real>553415508.93848097</real>
 	<key>NoSyncTipsDisabled</key>
@@ -1923,6 +1927,8 @@
 		<string>000</string>
 		<string>0000</string>
 	</array>
+	<key>OnlyWhenMoreTabs</key>
+	<false/>
 	<key>OpenBookmark</key>
 	<false/>
 	<key>PasteTabToStringTabStopSize</key>
